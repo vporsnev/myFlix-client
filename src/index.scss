@@ -3,3 +3,16 @@ $color: steelblue;
 .my-flix {
   color: $color;
 }
+
+body {
+  max-width: 100% !important;
+  font-family: 'Playfair Display', serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
