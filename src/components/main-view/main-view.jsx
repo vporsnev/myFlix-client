@@ -11,7 +11,7 @@ import ProfileView from "../profile-view/profile-view";
 import LoginView from "../login-view/login-view";
 import { MovieView } from "../movie-view/movie-view";
 import { RegistrationView } from "../registration-view/registration-view";
-import { Navbar } from "../navbar/navbar";
+import { Navigation } from "../navbar/navbar";
 import { GenreView } from "../genre-view/genre-view";
 import { DirectorView } from "../director-view/director-view";
 import { Row, Col, Container } from "react-bootstrap";
@@ -120,7 +120,7 @@ class MainView extends React.Component {
 
     return (
       <Router>
-        <Menu user={user} />
+        <Navigation user={user} />
         <Container fluid>
             <Route
               exact
