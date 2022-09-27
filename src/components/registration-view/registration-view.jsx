@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Form, Button, Row, Col, Card } from "react-bootstrap";
+import { Form, Button, Row, Card } from "react-bootstrap";
 import axios from "axios";
 import "./registration-view.scss";
 

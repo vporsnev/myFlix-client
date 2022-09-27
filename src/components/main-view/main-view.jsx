@@ -14,7 +14,7 @@ import { RegistrationView } from "../registration-view/registration-view";
 import { Navigation } from "../navbar/navbar";
 import { GenreView } from "../genre-view/genre-view";
 import { DirectorView } from "../director-view/director-view";
-import { Row, Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 import "./main-view.scss";
 

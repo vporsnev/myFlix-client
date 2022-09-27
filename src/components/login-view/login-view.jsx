@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import { Form, Button, Card, Row } from "react-bootstrap";
+import { Form, Card, Row } from "react-bootstrap";
 import { connect } from "react-redux";
 import "./login-view.scss";
 

@@ -6,7 +6,7 @@ import "./profile-view.scss";
 
 import { MovieCard } from "../movie-card/movie-card";
 
-import { Form, Button, Card, Container, Row, Col } from "react-bootstrap";
+import { Form, Card, Container, Row, Col } from "react-bootstrap";
 import { setUser, updateUser } from "../../actions/actions";
 import { connect } from "react-redux";
 export class ProfileView extends React.Component {

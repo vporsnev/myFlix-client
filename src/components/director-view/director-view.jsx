@@ -1,11 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Button from "react-bootstrap/Button";
 
 import { MovieCard } from "../movie-card/movie-card";
 
 // Import React Bootstrap Components
-import { Container, Col, Card, Row, Button } from "react-bootstrap";
+import { Container, Card, Row } from "react-bootstrap";
 
 // Import custom SCSS
 import "./director-view.scss";
