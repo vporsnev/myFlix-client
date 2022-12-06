@@ -6,11 +6,14 @@ The client-side for an application built using MERN (MongoDB, Express, React, an
 ## Features
 ### Main view
   ● Returns a list of ALL movies to the user (each listed item with an image, title, and description)
+  
   ● Sorting and filtering
+  
   ● Ability to select a movie for more details
  
 ### Single movie view
    ● Returns data (description, genre, director, image) about a single movie to the user
+   
    ● Allows users to add a movie to their list of favorites
  
 ### Login view
@@ -21,8 +24,10 @@ The client-side for an application built using MERN (MongoDB, Express, React, an
  
 ### Genre view
    ● Returns data about a genre, with a name and description
+   
    ● Displays example movies
  
 ### Director view
    ● Returns data about a director (name, bio, birth year, death year)
+   
    ● Displays example movies
