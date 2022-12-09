@@ -33,7 +33,7 @@ export function Navigation({ user }) {
 						</Nav.Link>
 					)}
 					{isAuth() && (
-						<Nav.Link href={`/users/${user}`}>
+						<Nav.Link to={`/users/${user}`}>
 							<h5>{user}</h5>
 						</Nav.Link>
 					)}
@@ -43,8 +43,8 @@ export function Navigation({ user }) {
 							Logout
 						</button>
 					)}
-					{!isAuth() && <Nav.Link href="/">Sign-in</Nav.Link>}
-					{!isAuth() && <Nav.Link href="/register">Sign-up</Nav.Link>}
+					{!isAuth() && <Nav.Link to="/">Sign-in</Nav.Link>}
+					{!isAuth() && <Nav.Link to="/register">Sign-up</Nav.Link>}
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
