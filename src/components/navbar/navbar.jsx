@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
 
 import "./navbar.scss";
@@ -28,14 +28,14 @@ export function Navigation({ user }) {
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="ml-auto">
 					{isAuth() && (
-						<Nav.Link href="/">
+						<NavLink to="/">
 							<h5>Home</h5>
-						</Nav.Link>
+						</NavLink>
 					)}
 					{isAuth() && (
-						<Nav.Link to={`/users/${user}`}>
+						<NavLink to={`/users/${user}`}>
 							<h5>{user}</h5>
-						</Nav.Link>
+						</NavLink>
 					)}
 
 					{isAuth() && (
@@ -43,8 +43,8 @@ export function Navigation({ user }) {
 							Logout
 						</button>
 					)}
-					{!isAuth() && <Nav.Link to="/">Sign-in</Nav.Link>}
-					{!isAuth() && <Nav.Link to="/register">Sign-up</Nav.Link>}
+					{!isAuth() && <NavLink to="/">Sign-in</NavLink>}
+					{!isAuth() && <NavLink to="/register">Sign-up</NavLink>}
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
