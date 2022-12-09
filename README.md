@@ -1,5 +1,7 @@
 # myFlix-client
 
+![This is an image](login-view.png) ![This is an image](img_55.png) ![This is an image](movie-view.png) ![This is an image](genre-view.png) ![This is an image](director-view.png) 
+
 ## About
 The client-side for an application built using MERN (MongoDB, Express, React, and Node.js) stack called myFlix based on its existing server-side code (REST API and database).
 
